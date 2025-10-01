@@ -1,6 +1,8 @@
 import './App.css'
 import Profile  from './components/Profile/profile'
 import userData from './components/Profile/userData.json'
+import FriendList from './components/FriendList/friends'
+import listFrend from './components/FriendList/friends.json'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
 
   
      />
+   <FriendList ListFrends ={listFrend}/>
+    
     </>
   )
 }

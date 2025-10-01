@@ -14,7 +14,7 @@ body {
   
     
 } 
-p{
+.profilP{
     color: #818181;
 }
 .imageProfile {
@@ -28,7 +28,7 @@ p{
     display: flex;
      justify-content:center;
 }
-li{
+.ProfileLi{
     display: flex;
     flex-direction: column;
     border: solid 1px #818181;
